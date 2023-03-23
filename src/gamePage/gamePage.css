@@ -9,3 +9,21 @@
 .gameBtn{
     margin-top: 25px;
 }
+
+.BtnGameWrapper{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+}
+
+.plusImg{
+    width: 64px;
+}
+
+.plusCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:75px
+}

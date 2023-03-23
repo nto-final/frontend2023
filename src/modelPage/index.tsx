@@ -142,6 +142,23 @@ export const ModelsPage: React.FC = () =>{
                         description="Порадуйте своего бабра бревном, об которое он сможет поточить зубы, как истинный бобер" 
                     />
                 </Card>
+                <a href='https://github.com/nto-final/3d-models'>
+                    <Card
+                        hoverable
+                        style={{ width: 240 }}
+                    >
+                    <div className='plusCard'>
+                    <img alt="example" src="images/plus.png" className="plusImg"/>
+                        <Meta 
+                            title="Файлы моделей" 
+                            description="Нажмите на карточку, чтобы посмотреть видео моделей" 
+                        /> 
+                    </div>
+                                  
+                    </Card>
+                </a>
+
+
             
                 
 

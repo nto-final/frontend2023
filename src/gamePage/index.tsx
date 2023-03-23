@@ -27,8 +27,11 @@ export const GamePage:React.FC = () =>{
                         title="BabrGame" 
                         description="Играй со своим личным Бабром. Можешь его кормить, гладить и ругать. Он выдает базированные цитаты. С ним точно не соскучишься." 
                     />
-                    <Button className='gameBtn' type="primary">Играть</Button>
-                </Card>
+                        <div className="BtnGameWrapper">
+                            <a href=''><Button className='gameBtn' type="primary">Играть</Button></a>
+                            <a href=''><Button className='gameBtn'>Код</Button></a>
+                        </div>                
+                    </Card>
 
 
 
@@ -42,7 +45,12 @@ export const GamePage:React.FC = () =>{
                         title="Кубитоклобусы" 
                         description="Спаси мир от кубитоуклобусов и отправь их домой к себе через портал." 
                     />
-                    <Button className='gameBtn' type="primary">Играть</Button>
+                    <div className="BtnGameWrapper">
+                        <a href='https://tough-competition.surge.sh/game.html'><Button className='gameBtn' type="primary">Играть</Button></a>
+                        <a href='https://github.com/nto-final/first-day-3-7-9-11-12-13-tasks/blob/main/game.html '><Button className='gameBtn'>Код</Button></a>
+
+                    </div>
+
                 </Card>
             </div>
         </div>
