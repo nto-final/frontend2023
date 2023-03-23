@@ -28,8 +28,8 @@ export const GamePage:React.FC = () =>{
                         description="Играй со своим личным Бабром. Можешь его кормить, гладить и ругать. Он выдает базированные цитаты. С ним точно не соскучишься." 
                     />
                         <div className="BtnGameWrapper">
-                            <a href=''><Button className='gameBtn' type="primary">Играть</Button></a>
-                            <a href=''><Button className='gameBtn'>Код</Button></a>
+                            <a href='https://gusty-distribution.surge.sh/game1'><Button className='gameBtn' type="primary">Играть</Button></a>
+                            <a href='https://github.com/nto-final/game/blob/main/game1.html'><Button className='gameBtn'>Код</Button></a>
                         </div>                
                     </Card>
 
@@ -53,6 +53,7 @@ export const GamePage:React.FC = () =>{
 
                 </Card>
             </div>
+
         </div>
     )
 }   

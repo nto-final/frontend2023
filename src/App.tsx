@@ -8,6 +8,7 @@ import { TaskPage } from './taskPage';
 import { GamePage } from './gamePage';
 import { ModelsPage } from './modelPage';
 import { TeamPage } from './teamPage';
+import { DemoPage } from './demoPage';
 
 const { Header, Content, Footer, Sider } = Layout
 
@@ -64,6 +65,7 @@ function App() {
       <MainPage></MainPage>
       <TaskPage></TaskPage>
       <GamePage></GamePage>
+      <DemoPage></DemoPage>
       <ModelsPage></ModelsPage>
       <TeamPage></TeamPage>
 

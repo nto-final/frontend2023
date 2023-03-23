@@ -18,4 +18,12 @@
     justify-content: center;
     
 }
+.demoPage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:50px;
+    padding-bottom: 100px;
+}
 

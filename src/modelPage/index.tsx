@@ -27,10 +27,10 @@ export const ModelsPage: React.FC = () =>{
                     style={{ width: 240 }}
                     cover={<img alt="example" src="images/models/2.png" />}
                 >
-                    <Meta 
-                         title="Квадратный кубитоклобус" 
-                         description="Скин квадратного кубитоклобуса, также есть в фиолетовом и красном цветах"
-                    />
+                <Meta 
+                    title="Квадратный кубитоклобус" 
+                    description="Скин квадратного кубитоклобуса, также есть в фиолетовом и красном цветах"
+                />
                 </Card>
                 <Card
                     hoverable
