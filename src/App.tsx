@@ -57,6 +57,7 @@ function App() {
       <Header className="header" >
 
         <a href='/'  ><img className="logo" src='images/logo.jpg'/></a>
+        <div>PYC</div>
         <Menu  className='headerMenu' mode="horizontal" defaultSelectedKeys={['1']} items={items1} />
       </Header>
 

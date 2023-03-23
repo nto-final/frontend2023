@@ -60,7 +60,7 @@ export const TaskPage: React.FC = () =>{
                     hoverable
                     style={{ width: 240 }}
                     cover={<img alt="example" src="images/task4.jpg" />}
-                >
+                >   
                     <Meta 
                         title="Задача 4. Прыгающий мяч (анимация)"
                         description="Мяч прыгает на маркере. Маркер kanji"
@@ -122,7 +122,7 @@ export const TaskPage: React.FC = () =>{
                         title="Задача 8. Портал в виртуальный мир"
                         description="Портал в другой мир, при нажатии на него, вас телепортирует в другую комнату где можете прсомотреть 360 картинку. Маркер kanji."
                     />
-                        <div className="mainBtns" style={{justifyContent:'center'}}>
+                        <div className="mainBtns" style={{marginTop:'70%', justifyContent:'center'}}>
                             <a href="https://nto-final.github.io/task8/ "><Button type='primary'>Демо</Button></a>
                             <a href="https://github.com/nto-final/task8 "><Button>Код</Button></a>
                         </div>
@@ -179,14 +179,16 @@ export const TaskPage: React.FC = () =>{
                     style={{ width: 240 }}
                     cover={<img alt="example" src="images/task13.jpg" />}
                 >
-                    <Meta 
-                        title="Задача 13. Мультимаркер и его взаимодействие"
-                        description="AR cценарий с мультимаркером. Маркер kanji."
-                    />
-                    <div className="mainBtns" style={{marginTop:'70%', justifyContent:'center'}}>
-                        <a href="https://nto-final.github.io/first-day-3-7-9-11-12-13-tasks/index13"><Button type='primary'>Демо</Button></a>
-                        <a href="https://github.com/nto-final/first-day-3-7-9-11-12-13-tasks/blob/main/index13.html"><Button>Код</Button></a>
+                    <div className="cardIntoWrapper">
+                        <Meta 
+                            title="Задача 13. Мультимаркер и его взаимодействие"
+                            description="AR cценарий с мультимаркером. Маркер kanji."
+                        />
+                        <div className="mainBtns" style={{marginTop:'70%', justifyContent:'center'}}>
+                            <a href="https://nto-final.github.io/first-day-3-7-9-11-12-13-tasks/index13"><Button type='primary'>Демо</Button></a>
+                            <a href="https://github.com/nto-final/first-day-3-7-9-11-12-13-tasks/blob/main/index13.html"><Button>Код</Button></a>
 
+                        </div>
                     </div>
                 </Card>
                 
