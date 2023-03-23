@@ -1,0 +1,11 @@
+.gameWrapper{
+    display: inline-flex;
+    flex-direction: row;
+    gap:100px;
+    padding:100px 250px;
+    align-items: flex-start;
+}
+
+.gameBtn{
+    margin-top: 25px;
+}

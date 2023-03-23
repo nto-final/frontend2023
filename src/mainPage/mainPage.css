@@ -1,0 +1,39 @@
+.mainPagePYC{
+    margin-top: 64px;
+    width: 100%;
+    height: calc(100vh - 64px);
+    background-color: white;
+    display:  flex;
+    flex-direction: row;
+    gap:0px;
+}
+
+.textContent{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    align-items: left;
+    height: calc(100vh - 64px);
+    justify-content: center;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+.h1{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.textDescr{
+    font-size: 28px;
+}
+
+.mainBtns{
+    display: flex;
+    flex-direction: row;
+    gap: 15px
+}
+
+.img{
+    height: calc(100vh - 64px);
+}
