@@ -154,7 +154,7 @@ export const ModelsPage: React.FC = () =>{
                             description="Нажмите на карточку, чтобы посмотреть видео моделей" 
                         /> 
                     </div>
-                                  
+                           
                     </Card>
                 </a>
 
